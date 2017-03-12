@@ -1,0 +1,96 @@
+
+body {
+    background: fixed url(../images/bg-body.png),linear-gradient(to right,#7b4397,#dc2430);
+}
+
+abbr[title]:hover,
+a.dotted:link,
+a.dotted:visited {
+    color: #9678b6;
+    border-bottom: 1px dashed #9678b6;
+}
+
+mark,
+.info-block_icon img {
+    background: linear-gradient(to left,#7b4397,#dc2430);
+}
+
+input[type="text"]:focus,
+textarea:focus {
+    border: 1px solid #9678b6;
+}
+
+button,
+a.button-s,
+a.button-m,
+a.button-l {
+    background-color: #9678b6;
+    border: 1px solid #9678b6;
+}
+
+::-webkit-selection {
+    background: #9678b6;
+}
+
+::-moz-selection {
+    background: #9678b6;
+}
+
+::selection {
+    background: #9678b6;
+}
+
+a:link,
+a:visited,
+.main-logo_color,
+.main-logo_link:hover,
+.contact-lite_color,
+.info-block:hover h3,
+.testimonials:hover h3,
+.pricing-table:hover .cell-title {
+    color: #ffa500 ;
+}
+
+a:hover {
+    color: #ffa500;
+}
+
+a.dotted:hover {
+    color: #ffa500;
+    border-bottom: 1px dashed #ffa500;
+}
+
+button,
+a.button-s,
+a.button-m,
+a.button-l {
+    color: #383838;
+}
+
+.main-nav_list a {
+    color: #383838;
+}
+
+.main-nav_list a:hover,
+.main-nav_list .active a,
+.main-nav_button:hover {
+    color: #9678b6;
+}
+
+.info-nav_list a {
+    color: #525252;
+}
+
+.info-nav_list a:hover,
+.info-nav_list .active a {
+    color: #9678b6;
+}
+
+.cell-price {
+    background-color: #9678b6;
+}
+
+
+/*----------------------------------------------------------------------------*/
+/*                     Visit the website: UnreaLSnake.com                     */
+/*----------------------------------------------------------------------------*/

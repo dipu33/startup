@@ -1,0 +1,2 @@
+/*--- Ajax Contact Form 1.0.0 --- UnreaLSnake ---*/
+$(init);function init(){$("#message-form").submit(submitForm)}function submitForm(){var a=$(this);$("#name").val()&&$("#email").val()&&$("#message").val()?($("#submit").html("sending"),$.ajax({url:a.attr("action")+"?ajax=true",type:a.attr("method"),data:a.serialize(),success:submitFinished})):$("#submit").html("error");return!1}function submitFinished(a){a=$.trim(a);"success"==a?$("#submit").html("sent"):$("#submit").html("error")};
